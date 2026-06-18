@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: production
+    schema: Production
+    tables:
+      - name: WorkOrder
+      - name: Product
+      - name: ScrapReason
+
+  - name: purchasing
+    schema: Purchasing
+    tables:
+      - name: PurchaseOrderHeader
+      - name: Vendor
+      - name: ProductVendor

@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Python virtual environment
+dbt_env/
+
+# dbt artifacts
+manufacturing_ops_bi/target/
+manufacturing_ops_bi/logs/
+manufacturing_ops_bi/dbt_packages/
+
+# General logs
+logs/
