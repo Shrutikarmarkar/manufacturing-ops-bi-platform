@@ -7,6 +7,8 @@ sources:
       - name: WorkOrder
       - name: Product
       - name: ScrapReason
+      - name: ProductSubcategory
+      - name: ProductCategory
 
   - name: purchasing
     schema: Purchasing

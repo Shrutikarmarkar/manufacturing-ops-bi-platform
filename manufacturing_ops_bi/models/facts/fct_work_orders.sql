@@ -17,6 +17,11 @@ select
     end as is_on_time,
 
     case 
+        when end_date > due_date then datediff(day, due_date, end_date)
+        else 0
+    end as days_late,
+
+    case 
         when order_qty > 0 then cast(scrapped_qty as float) / order_qty 
         else 0 
     end as scrap_rate
